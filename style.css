@@ -1,0 +1,61 @@
+*{
+  margin: 10px;
+  padding: 0;
+  background-color: #1e1e1e;
+  color: #ffff;
+}
+.container{
+  display: flex;
+  flex-direction: row;
+}
+.input-container{
+  display: flex;
+  flex-direction: column;
+}
+input[type=text],input[type=number]{
+  border: 1px solid #FFFF;
+  height: 30px;    
+  border-radius: 1px;
+  color: #FFFF;
+}
+.Add-btn{
+  background-color: #ffff;
+  color: black;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 30px;
+}
+.success{
+  color: green;
+  font-size: 18px;
+}
+.error{
+  color: red;
+  font-size: 18px;
+}
+.AddedEmployee-container{
+  margin-left: 30px;
+  display: flex;
+  flex-direction: column;
+}
+.AddedEmployee-container h2{
+  margin-left: 30px;
+  display: flex;
+  flex-direction: column;
+}
+.updateOnUi{
+  display: flex;
+  border: 1px solid #ffff;
+  border-radius: 10px;
+}
+.addData{
+   display: flex; 
+}
+#delete-btn{
+  background-color: #ffff;
+  color: black;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
